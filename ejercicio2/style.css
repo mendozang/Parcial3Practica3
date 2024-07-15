@@ -1,0 +1,105 @@
+.hide {
+    display: none;
+}
+
+body {
+    font-family: "Outfit", sans-serif !important;
+    padding-bottom: 3%;
+}
+
+.titles {
+    padding-bottom: 2%;
+}
+
+#pokemonInput {
+    display: flex;
+    margin: auto;
+    width: 30%;
+}
+
+#pokemonSprite {
+    height: 200px;
+    width: auto;
+}
+
+span {
+    font-weight: bolder;
+}
+
+.imgContainer {
+    margin: auto;
+    border-radius: 20px;
+    height: fit-content;
+    width: fit-content;
+}
+
+.pokemonInfo {
+    display: flex;
+    width: 50%;
+    margin: auto;
+    border-radius: 30px;
+    flex-direction: column;
+    padding: 2%;
+}
+
+.infoStyle {
+    background-color: #212529;
+    border-style: solid;
+    border-width: 4px;
+    border-color: #dc3545;
+}
+
+.pokemonName {
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.pokemonId {
+    font-size: 30px;
+}
+
+.typePill {
+    border-radius: 100px;
+    color: #fff;
+    margin: auto;
+    margin-top: 4%;
+    margin-bottom: 2%;
+    padding: 1%;
+    width: 100px;
+}
+
+.pokemonHeight,
+.pokemonWeight,
+.pokemonMoves,
+.pokemonAbilities {
+    font-size: 20px;
+}
+
+.pokemonStats div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+    font-size: 20px;
+}
+
+#toggleSprite {
+    margin: 2% 0 2% 0;
+    padding: 1%;
+    font-size: 20px;
+    font-weight: 500;
+    color: #212529;
+    width: 20%;
+    border-radius: 30px;
+    background-image: linear-gradient(160deg, #a54e07, #b47e11, #fef1a2, #bc881b, #a54e07);
+    transition: all .2s ease-in-out;
+    border: none;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+#toggleSprite:hover {
+    background-size: 150% 150%;
+    color: #212529ce;
+    box-shadow: 0 0 10px #b47e11;
+}

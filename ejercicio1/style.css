@@ -1,0 +1,58 @@
+body {
+    height: 100vh;
+    background: linear-gradient(90deg, #7f7fd5, #86a8e7, #91eae4);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+main {
+    padding-top: 2%;
+}
+
+.allBody {
+    font-family: "Rubik", sans-serif;
+}
+
+span {
+    font-weight: bolder;
+}
+
+.allTitles {
+    padding: 1%;
+    border-radius: 0 0 40px 40px;
+}
+
+#title2 {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.icon {
+    color: #7f7fd5;
+}
+
+.centered {
+    text-align: center !important;
+}
+
+.table-responsive-md {
+    padding: 2% 5% 2% 5%;
+}
+
+th {
+    font-weight: 500;
+}
+
+#mainTable_wrapper {
+    padding: 1% 0 1% 0;
+}
+
+.page-item.active .page-link {
+    background-color: #7f7fd5;
+    color: #f8f9fa !important;
+    border-style: none;
+}
+.page-link {
+    color: #7f7fd5 !important;
+}
